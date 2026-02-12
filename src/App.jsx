@@ -58,13 +58,13 @@ function App() {
 
       tl.to(card1.current, {
         clipPath: "inset(0 0 0 0)",
-        duration: 0.45
+        duration: 0.5
       }, 0);
 
       tl.fromTo(
         card1.current.querySelectorAll(".title,.icon,p"),
         { y: 30, opacity: 0 },
-        { y: 0, opacity: 1, stagger: 0.06, duration: 0.35 },
+        { y: 0, opacity: 1, stagger: 0.06, duration: 0.4 },
         0.1
       );
     }
@@ -75,13 +75,13 @@ function App() {
 
       tl.to(card2.current, {
         clipPath: "inset(0 0 0 0)",
-        duration: 0.45
+        duration: 0.5
       }, 0);
 
       tl.fromTo(
         card2.current.querySelectorAll(".title,.icon,p"),
         { y: 30, opacity: 0 },
-        { y: 0, opacity: 1, stagger: 0.06, duration: 0.35 },
+        { y: 0, opacity: 1, stagger: 0.3, duration: 0.5 },
         0.1
       );
     }
@@ -92,13 +92,13 @@ function App() {
 
       tl.to(card3.current, {
         clipPath: "inset(0 0 0 0)",
-        duration: 0.45
+        duration: 0.5
       }, 0);
 
       tl.fromTo(
         card3.current.querySelectorAll(".title,.icon,p"),
         { y: 30, opacity: 0 },
-        { y: 0, opacity: 1, stagger: 0.06, duration: 0.35 },
+        { y: 0, opacity: 1, stagger: 0.3, duration: 0.4 },
         0.1
       );
     }
